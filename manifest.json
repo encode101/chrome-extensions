@@ -1,0 +1,15 @@
+{
+	"manifest_version":2,
+	"name":"freesmsportal",
+	"description":"Send Free SMS On The Go!",
+	"version":"1.0",
+
+	"permissions":[
+		"https://www.freesmsportal.com/"
+	],
+
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"app.html"
+	}
+}
