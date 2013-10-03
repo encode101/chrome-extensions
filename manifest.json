@@ -2,10 +2,16 @@
 	"manifest_version":2,
 	"name":"freesmsportal",
 	"description":"Send Free SMS On The Go!",
+	"background": { "js": ["script.js"] },
 	"version":"1.0",
 
 	"permissions":[
-		"https://www.freesmsportal.com/"
+		"https://www.freesmsportal.com/",
+		"tabs", "http://*/*",
+		"notifications"
+	],
+	"web_accessible_resources": [
+		"48.png"
 	],
 
 	"browser_action":{
